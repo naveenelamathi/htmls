@@ -8,43 +8,105 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <style>
-h2{
-    color: aquamarine;
-}
-.list{
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-    padding: 10px;
-}
-.order{
-    margin-left: 10px;
-}
-.nav{
-    background-color: beige;
-    width:100% ;
-    height: 50px;
-}
-.list{
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-    padding: 10px;
-}
-.order{
-    margin-left: 10px;
-}
-.nav{
-    background-color: beige;
-    width:100% ;
-    height: 50px;
-}
-.lijh6y8iu{
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-    padding: 10px;
-}
+    h2 {
+        color: aquamarine;
+    }
+
+    .list {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .order {
+        margin-left: 10px;
+    }
+
+    .nav {
+        background-color: beige;
+        width: 100%;
+        height: 50px;
+    }
+
+    .list {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .order {
+        margin-left: 10px;
+    }
+
+    .nav {
+        background-color: beige;
+        width: 100%;
+        height: 50px;
+    }
+
+    .lijh6y8iu {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    a:link {
+        background-color: yellow;
+    }
+
+    a:visited {
+        background-color: bla;
+    }
+
+    a:hover {
+        background-color: lightgreen;
+    }
+
+    a:active {
+        background-color: hotpink;
+    }
+
+    .padding {
+        padding: 10px;
+        margin-left: 100px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .relative {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        border: 3px solid #73AD21;
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+
+    .absolute {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 200px;
+        height: 100px;
+        border: 3px solid #73AD21;
+        color: blueviolet;
+        z-index: 1;
+    }
+    .input{
+        position: absolute;
+        top: 80px;
+        right: 0;
+    }
 </style>
 
 <body>
@@ -101,6 +163,15 @@ h2{
             </td>
         </tr>
     </table>
+
+    <p><b><a href="contact.html" target="_blank">This is a link</a></b></p>
+    <button class="padding">this is a button</button>
+    <div class="relative">
+        <img src="th.jpg" class="image">
+        <p class="absolute">i am image</p>
+        <input type="text" class="input"></input>
+
+    </div>
     <footer></footer>
 
 

@@ -1,3 +1,29 @@
 table, th, td {
     border:1px solid black;
   }
+
+  @media only screen and (max-width: 600px) {
+    table, th, td {
+      border:1px solid black;
+    }
+  }
+
+
+  a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:blachotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }

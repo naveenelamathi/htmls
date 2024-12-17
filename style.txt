@@ -1,0 +1,38 @@
+css types
+1.internal css
+2.inline css
+3.external css
+
+
+position types
+1.static
+2.fixed
+3.relative 
+4.absolute
+5.sticky
+
+
+css links
+1.link
+2.hover
+3.visited
+4.active
+
+The CSS Box Model
+1.margin
+2.padding
+3.content
+4.border
+
+css z-index
+above the content of image
+
+selectors
+1.class(.)
+2.id(#)
+3.universal(*)
+
+css responsive
+1.mobile view
+2.desktop view
+3.tab view
